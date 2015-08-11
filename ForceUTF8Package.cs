@@ -90,7 +90,7 @@ namespace VILICVANE.ForceUTF8
 
             try {
                 stream.Position = 0;
-                reader = new StreamReader(stream, new UTF8Encoding(false, true));
+                reader = new StreamReader(stream, new UTF8Encoding(true, true));
                 reader.ReadToEnd();
                 stream.Close();
             }
@@ -99,7 +99,7 @@ namespace VILICVANE.ForceUTF8
                 reader = new StreamReader(stream, Encoding.Default);
                 text = reader.ReadToEnd();
                 stream.Close();
-                File.WriteAllText(path, text, new UTF8Encoding(false));
+                File.WriteAllText(path, text, new UTF8Encoding(true));
             }
         }
         #endregion
