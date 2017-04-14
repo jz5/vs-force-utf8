@@ -4,6 +4,8 @@ Support Visual Studio 2013/2015
 
 Download: https://visualstudiogallery.msdn.microsoft.com/d94a3ad9-0549-4641-89b7-d858407bd6e9
 
+For 2017: https://github.com/jz5/vs-force-utf8-2017
+
 ## Original exstension:
 
 * Source: https://github.com/vilic/vs-force-utf8
